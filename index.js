@@ -1,22 +1,34 @@
 
 
 let countEl = document.getElementById("count-el")
-console.log(countEl)
+let saveEl = document.getElementById("save-el")
 
 let count = 0
 
 function increment(){
     
     
-    count = count + 1
+    count += 1
     countEl.innerText = count
     
 }
 
+
+
+
 function save(){
-    console.log(save)
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    count = 0
+    countEl.textContent = 0
 
 }
 
-save()
 
+
+let welcomeEl = document.getElementById("welcome-el")
+let name = "lokha's town "
+let greeting = "welcome back to "
+welcomeEl.innerText = greeting + name 
+
+welcomeEl.innerText += "👋"
