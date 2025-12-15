@@ -32,9 +32,17 @@ button {
     background: darkred;
 }
 
+#increment-btn:hover {
+     border: 2px solid blue;
+}
+
+
 #save-btn {
     background: darkgreen;
 }
+
+#save-btn:hover {
+     border: 2px solid blue;}
 
 #welcome-el {
     margin-top: 10px;
