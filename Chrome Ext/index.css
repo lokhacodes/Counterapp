@@ -10,9 +10,18 @@ input  {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
     box-sizing: border-box;
+    border: 3px solid #5f9341;
 }
 
 button {
-
+    margin: 4px;
+    background-color: #5f9341;;
+    color: #e7eeeaff;
+    border: none;
+     width      : 150px;
+     height : 30px;
+       font-weight: bold;
 }

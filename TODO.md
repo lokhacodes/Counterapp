@@ -1,3 +1,0 @@
-- Update counter app/readme.md with description, features, and usage ✅
-- Update basketball-scoreboard/readme.md with description, features, and usage ✅
-- Update README.md with overall project summary ✅
