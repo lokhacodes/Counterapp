@@ -1,7 +1,13 @@
 
+let myLeads=[]
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
 
-let inputBtn = document.getElementById("input-btn")
-
-inoutBtn.addEventListener("click", function(){
-    console.log("Button clicked from addEventListner")
+inputBtn.addEventListener("click", function(){
+    myLeads.push(inputEl.value)
+    console.log(myLeads)
 })
+
+
+    for(let i=0; i<=myLeads.length;i++){
+      console.log(myLeads[i])}
