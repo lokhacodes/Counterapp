@@ -21,11 +21,17 @@ button {
     margin-left: 1px;
     background-color: #5f9341;;
     color: #e7eeeaff;
-    border: none;
+    border: 1px solid  #5f9341;
      width      : 150px;
      height : 30px;
        font-weight: bold;
 }
+
+#delete-btn {
+    background-color : #e7eeeaff;
+    color: #5f9341;;
+}
+
 
 ul {
     list-style: none;
